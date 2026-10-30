@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Baria Manufacturing">
+  <polygon points="17,3 47,3 62,32 47,61 17,61 2,32" fill="#E8641E"/>
+  <polygon points="19.5,7 44.5,7 57.5,32 44.5,57 19.5,57 6.5,32" fill="none" stroke="#14191F" stroke-width="1.5" opacity=".35"/>
+  <path d="M23 16V48M23 16H35.5a7.5 7.5 0 0 1 0 15H23M23 31H37.5a8.5 8.5 0 0 1 0 17H23" fill="none" stroke="#14191F" stroke-width="6.5" stroke-linejoin="miter" stroke-linecap="butt"/>
+</svg>

@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Request a Quote | Baria Manufacturing, Arlington TX</title>
+  <meta name="description" content="Request a quote for CNC machining, metal fabrication, or prototyping. Upload your drawings (PDF, STEP, DXF) and Baria Manufacturing will reply with price and lead time.">
+  <link rel="canonical" href="https://bariamfg.com/contact.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Request a Quote | Baria Manufacturing, Arlington TX">
+  <meta property="og:description" content="Request a quote for CNC machining, metal fabrication, or prototyping. Upload your drawings (PDF, STEP, DXF) and Baria Manufacturing will reply with price and lead time.">
+  <meta property="og:url" content="https://bariamfg.com/contact.html">
+  <meta property="og:image" content="https://bariamfg.com/img/og-image.jpg">
+  <meta name="theme-color" content="#14191f">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/script.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://bariamfg.com/#business",
+    "name": "Baria Manufacturing",
+    "legalName": "Baria Manufacturing LLC",
+    "description": "CNC machining, metal fabrication, and prototyping for aerospace and automotive customers.",
+    "url": "https://bariamfg.com/",
+    "logo": "https://bariamfg.com/img/logo-512.png",
+    "image": "https://bariamfg.com/img/og-image.jpg",
+    "telephone": "+1-972-762-7555",
+    "email": "quotes@bariamfg.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2135 Webb Lynn Rd, Suite A",
+      "addressLocality": "Arlington",
+      "addressRegion": "TX",
+      "postalCode": "76002",
+      "addressCountry": "US"
+    },
+    "areaServed": ["Arlington, TX", "Dallas–Fort Worth, TX", "United States"],
+    "knowsAbout": ["CNC machining", "CNC milling", "CNC turning", "Metal fabrication", "Prototyping"],
+    "employee": {
+      "@type": "Person",
+      "name": "Cuong Ngo",
+      "jobTitle": "Shop Manager & Engineer"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="Baria Manufacturing home">
+        <img src="/img/logo-mark.svg" alt="" width="44" height="44">
+        <span class="brand-text"><strong>BARIA</strong><span>MANUFACTURING</span></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="nav" id="site-nav" aria-label="Main">
+        <a href="/">Home</a>
+        <a href="/capabilities.html">Capabilities</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html" aria-current="page">Contact</a>
+        <a class="btn" href="/contact.html">Request a Quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap page-hero">
+        <p class="eyebrow">Contact</p>
+        <h1>Request a Quote</h1>
+        <p class="lead">Tell us about your part and attach your drawings. We'll review them and reply with a price and lead time.</p>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="wrap contact-grid">
+        <div class="form-card">
+          <form name="quote" method="POST" action="https://bariamfg.netlify.app/thanks" enctype="multipart/form-data" data-netlify="true" netlify-honeypot="company-website">
+            <input type="hidden" name="form-name" value="quote">
+            <p class="hidden"><label>Leave this empty: <input name="company-website" tabindex="-1" autocomplete="off"></label></p>
+            <input type="hidden" name="subject" value="New quote request from bariamfg.com">
+
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Name <span class="req">*</span></label>
+                <input id="name" name="name" type="text" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="company">Company</label>
+                <input id="company" name="company" type="text" autocomplete="organization">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="email">Email <span class="req">*</span></label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+              </div>
+              <div class="field">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="service">Service</label>
+                <select id="service" name="service">
+                  <option>CNC Machining</option>
+                  <option>Metal Fabrication</option>
+                  <option>Prototyping</option>
+                  <option>Not sure / Multiple</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="quantity">Quantity</label>
+                <input id="quantity" name="quantity" type="text" placeholder="e.g. 5 prototypes, then 200">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="material">Material &amp; finish</label>
+                <input id="material" name="material" type="text" placeholder="e.g. 6061-T6, black anodize">
+              </div>
+              <div class="field">
+                <label for="needed">Needed by</label>
+                <input id="needed" name="needed-by" type="date">
+              </div>
+            </div>
+            <div class="field">
+              <label for="details">Project details <span class="req">*</span></label>
+              <textarea id="details" name="details" required placeholder="Describe the part, critical tolerances, certifications or inspection reports needed, etc."></textarea>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="drawing1">Drawing / CAD file
+                  <span class="hint">PDF, STEP, IGES, DXF, DWG, or ZIP</span></label>
+                <input id="drawing1" name="drawing1" type="file" accept=".pdf,.step,.stp,.igs,.iges,.dxf,.dwg,.x_t,.sldprt,.zip,.png,.jpg,.jpeg">
+              </div>
+              <div class="field">
+                <label for="drawing2">Additional file
+                  <span class="hint">Optional</span></label>
+                <input id="drawing2" name="drawing2" type="file" accept=".pdf,.step,.stp,.igs,.iges,.dxf,.dwg,.x_t,.sldprt,.zip,.png,.jpg,.jpeg">
+              </div>
+            </div>
+            <p class="note">Files up to 8 MB total. For larger files or more drawings, submit this form and then email them to <a href="mailto:quotes@bariamfg.com">quotes@bariamfg.com</a>.</p>
+            <p class="note"><strong>Export-controlled (ITAR/EAR) drawings:</strong> please do not upload them here. Describe the part and we'll contact you to arrange a secure transfer.</p>
+            <button class="btn" type="submit">Send Quote Request</button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <aside class="info-card">
+          <h3>Contact us directly</h3>
+          <dl>
+            <dt>Phone</dt>
+            <dd><a href="tel:+19727627555">(972) 762-7555</a></dd>
+            <dt>Quotes</dt>
+            <dd><a href="mailto:quotes@bariamfg.com">quotes@bariamfg.com</a></dd>
+            <dt>General</dt>
+            <dd><a href="mailto:info@bariamfg.com">info@bariamfg.com</a></dd>
+            <dt>Shop Manager</dt>
+            <dd>Cuong Ngo<br><a href="mailto:cuong@bariamfg.com">cuong@bariamfg.com</a></dd>
+            <dt>Address</dt>
+            <dd>2135 Webb Lynn Rd, Suite A<br>Arlington, TX 76002<br><a href="https://www.google.com/maps/search/?api=1&amp;query=2135+Webb+Lynn+Rd+Suite+A+Arlington+TX+76002" rel="noopener">Get directions</a></dd>
+          </dl>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand"><img src="/img/logo-mark.svg" alt="" width="36" height="36"><strong>BARIA</strong></div>
+          <p>CNC machining, metal fabrication, and prototyping in Arlington, Texas.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="/capabilities.html">Capabilities</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Request a Quote</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+19727627555">(972) 762-7555</a></li>
+            <li><a href="mailto:quotes@bariamfg.com">quotes@bariamfg.com</a></li>
+            <li><a href="mailto:info@bariamfg.com">info@bariamfg.com</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <address style="font-style:normal">2135 Webb Lynn Rd, Suite A<br>Arlington, TX 76002</address>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 Baria Manufacturing LLC. All rights reserved.</div>
+    </div>
+  </footer>
+</body>
+</html>
